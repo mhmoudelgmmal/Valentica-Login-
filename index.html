@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentica Task</title>    
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="setting">
+        <div class="firstDiv w-50 m-auto shadow-lg  rounded-lg">
+           <div class="row">
+            <div class="col-md-6 p-5 ">
+             <img src="images/Image Placeholder.png" class=" w-100" alt="">
+            </div>
+            <div class="secondDiv col-md-6 p-5 ">
+             <h1>Welcome</h1>
+             <p>We’re glad you’re here! Sign up to start
+             </p>
+             <button id="btnStart" class="btnStart w-100">Get Started</button>
+            </div>
+           </div>
+        </div>
+    </section>
+    
+    <section id="Register">
+        <div class="w-50 m-auto shadow-lg rounded-lg">
+            <div class="bg">
+                <div class="row">
+                    <div class="col-md-6 p-5">
+                        <img src="./images/Image Placeholder 2.png" class="h-100 w-100" alt="">
+                    </div>
+                    <div class="contentReg col-md-6 p-5 ps-0">
+                        <h1>Create Account</h1>
+                        <p>Go ahead and sign up, let everyone know how awesome you are!
+                        </p>
+                        <div>
+                            <div class="input-group mb-3 bg-white p-2">
+                                <span class=" iconSpan mt-1"> <i class="fa-regular  fa-user"></i> | </span>
+                                <input id="username" type="text" class="ms-2 form-control" placeholder="Username" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                            </div>
+                            <div id="userAlert" 
+                            class="alert alert-danger d-none">Username must start and end with character and can take digits between characters like (ahmed05ali) <br>
+                            Length must be (5 - 15) character
+                            </div>
+
+                            <div class="input-group mb-3 bg-white p-2">
+                                <span class=" iconSpan mt-1"> <i class="fa-regular fa-envelope"></i> | </span>
+                                <input id="email" type="email" class="ms-2 form-control" placeholder="Email" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                            </div>
+                            <div id="emailAlert" 
+                            class="alert alert-danger d-none">Insert a valid Email
+                            </div>
+
+                            <div class="input-group mb-3 bg-white p-2">
+                                <span class="iconSpan mt-1"> 
+                                    <i class="fa-solid fa-lock"></i> | </span>
+                                <input id="password" type="password" class="ms-2 form-control" placeholder="Password" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                            </div>
+                            <div id="passAlert" 
+                            class="alert alert-danger d-none">Password must start with 1 capital character and 6 small characters and digits and 1 sympol<br>
+                            Total must be at least 8 characters
+                            </div>
+
+                            <div class="input-group mb-3 bg-white p-2">
+                                <span class=" iconSpan mt-1"> <i class="fa-solid fa-lock"></i> | </span>
+                                <input id="confirmPass" type="Password" class="ms-2 form-control" placeholder="Confirm Password" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                            </div>
+                            <div id="ConfirmPassAlert" 
+                            class="alert alert-danger d-none">Password doesn't match
+                            </div>
+
+                        </div>
+                        <button id="btnCreate" class="btnCreate w-100 mt-3">Create Account</button>
+                    </div>
+                </div>
+            </div>
+    
+            
+        </div>
+    </section>
+    
+    <section id="Loged" >
+        <div class=" w-50 m-auto shadow-lg rounded">
+        <div class="bg">
+            <div class="row">
+                <div class="col-md-5 p-5">
+                    <img src="./images/Image Placeholder 3.png" class="w-100" alt="">
+                </div>
+                <div class="col-md-7 p-5 ps-0">
+
+                   <div class="d-flex align-items-center h-100">
+                     <div class="logContent"> 
+                         <h3>Successfully logged in</h3>
+                         <a id="userEmailLoged" href="">google.com</a>
+                     </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./js/index.js"></script>
+</body>
+
+</html>

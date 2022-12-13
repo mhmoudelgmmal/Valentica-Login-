@@ -1,0 +1,115 @@
+#Register,#Loged
+{
+    display: none ;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* //background-image: linear-gradient(to left, #aa2ff2, #9e45f7, #9354fb, #8861fd, #7e6cfe); */
+background-image: url(../images/image1.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: right;
+height: 100vh;
+background-color: rgba(255,255,255,0.4);
+background-blend-mode: lighten;
+}
+
+button{
+    cursor: pointer;
+}
+/* start setting */
+#setting .firstDiv{
+    background-color: #F5F7FF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    /* opacity: 100% !important; */
+}
+#setting{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#setting .btnStart{
+    background: linear-gradient(#2663DF, #758FF0);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    height: 60px;
+    border: none;
+    color: white;
+    padding: 
+    0px, 50px, 0px, 50px;
+}
+
+/* end setting */
+/* start regestiration */
+
+#Register{
+    height: 100vh;
+   
+}
+.bg{
+    background-color: #F5F7FF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#Register .btnCreate{
+    background: linear-gradient(#2663DF, #758FF0);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    height: 60px;
+    border: none;
+    color: white;
+    padding: 
+    0px, 50px, 0px, 50px;
+}
+.iconSpan{
+    color :#9CADF2;
+    width: 30px;
+}
+.input-group{
+    border: 1px solid #9CADF2;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.input-group input{
+    border: none;
+    height: 35px;
+}
+/* end regestiration */
+
+/* start Loged */
+#Loged{
+    height: 100vh;
+   
+}
+/* end Loged */
+
+@media screen and (max-width:767px) {
+    .secondDiv{
+        text-align: center;
+    }
+    .contentReg{
+        text-align: center;
+    }
+    .logContent{
+        text-align: center;
+    }
+}
